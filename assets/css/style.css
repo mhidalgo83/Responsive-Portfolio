@@ -187,28 +187,55 @@ footer{
     }
 
     section{
-        width: 500px;
-        margin-right: 425px;
-        margin-bottom: 500px;
+        width: 674px;
+        margin-left: 53px;
+        margin-bottom: 100px;
     }
 
 
 }
 
 @media only screen and (max-width: 768px){
-
-    li{
-        right: 195px;    
+    section{
+        margin-left: 42px;
     }
 
-    section{
-        width: 500px; !important;
-        margin-left: 53px;
+    ul{
+        position: relative;
+        display: block;
+        right: 250px;
+        clear: both;
+        bottom: 75px;
+    }
+
+    header{
+        position: relative;
     }
 }
 
-
-
 @media only screen and (max-width: 640px){
+    section{
+        width: 350px;
+        height: auto;   
+        margin-left: 150px;  
+    }
 
+    header{
+        height: 200px;  
+        position: relative;
+    }
+
+    #name{
+        width: 640px;
+        padding-top: 25px;
+        position: absolute;
+        left: 0px;
+        
+    }
+    
+    ul{
+        clear: both;
+        right: 500px;
+        top: 100px;
+    }
 }
