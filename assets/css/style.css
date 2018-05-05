@@ -172,3 +172,43 @@ footer{
     top: 20px;
     padding-top: 20px;
 }
+
+
+
+@media only screen and (max-width: 980px){
+
+
+    #name{
+        left: 43px;
+    }
+
+    li{
+        left: 5px;  
+    }
+
+    section{
+        width: 500px;
+        margin-right: 425px;
+        margin-bottom: 500px;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px){
+
+    li{
+        right: 195px;    
+    }
+
+    section{
+        width: 500px; !important;
+        margin-left: 53px;
+    }
+}
+
+
+
+@media only screen and (max-width: 640px){
+
+}
